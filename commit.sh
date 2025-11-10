@@ -1,5 +1,7 @@
-FILE="./$(date +%Y)/$(date +%m)/$(date +%d).html"
+DIR="./$(date +%Y)/$(date +%m)"
+FILE="$(echo $DIR)/$(date +%d).html"
 
+mkdir $DIR
 micro $FILE
 
 git add .
