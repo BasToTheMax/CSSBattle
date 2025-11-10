@@ -1,4 +1,4 @@
-FILE="./$(date +%Y)/$(date +%M)/$(date +%d).html"
+FILE="./$(date +%Y)/$(date +%m)/$(date +%d).html"
 
 micro $FILE
 
